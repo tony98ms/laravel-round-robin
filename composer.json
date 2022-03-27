@@ -1,0 +1,51 @@
+{
+    "name": "tonystore/laravel-round-robin",
+    "description": "Laravel package to generate sweepstakes using the Round Robin algorithm. Supports any number of teams, as long as they are greater than a minimum value specified in the configuration file. Built with Laravel Collections for better handling of arrays.",
+    "type": "package",
+    "homepage": "https://github.com/tony98ms/laravel-round-robin",
+    "keywords": [
+        "laravel",
+        "robin-round",
+        "round-robin",
+        "schedule"
+    ],
+    "require": {
+        "php": "^7.3|^8.0|^8.1",
+        "illuminate/support": "^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5|^8|^9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tonystore\\LaravelRoundRobin\\": "src/"
+        },
+        "files": [
+            "src/Http/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Anthony Medina Sandoval",
+            "email": "thony918@outlook.com",
+            "homepage": "https://github.com/tony98ms",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tonystore\\LaravelRoundRobin\\LaravelRoundRobinProvider"
+            ],
+            "aliases": {
+                "RoundRobin": "Tonystore\\LaravelRoundRobin\\RoundRobinFacade"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
