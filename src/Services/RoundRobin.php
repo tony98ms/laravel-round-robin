@@ -47,7 +47,7 @@ class RoundRobin
     public static function addTeams(array $teams): RoundRobin
     {
         if (empty($teams) || count($teams) < config('round-robin.min_teams')) {
-            throw new Exception('You need at least 2 teams to generate the calendar.');
+            throw new Exception('You need at least 2 teams to generate the schedule.');
         }
         $instance = new static($teams);
         return $instance;
@@ -60,7 +60,7 @@ class RoundRobin
     public function schedule(): Collection
     {
         if ($this->teams->isEmpty() || $this->teams->count() < config('round-robin.min_teams')) {
-            throw new Exception('You need at least 2 teams to generate the calendar.');
+            throw new Exception('You need at least 2 teams to generate the schedule.');
         }
         $this->checkForOdd();
         $this->doShuffle();
@@ -185,9 +185,9 @@ class RoundRobin
      */
     protected function cleanSchedule(): RoundRobin
     {
-        $this->schedule = $this->schedule->transform(function ($rondas, $key) {
-            return $rondas->filter(function ($ronda) {
-                return !is_null($ronda->get('local')) && !is_null($ronda->get('visitor'));
+        $this->schedule = $this->schedule->transform(function ($rounds, $key) {
+            return $rounds->filter(function ($round) {
+                return !is_null($round->get('local')) && !is_null($round->get('visitor'));
             })->values();
         })->values();
         return $this;
