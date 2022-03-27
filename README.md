@@ -1,6 +1,6 @@
 # **laravel-round-robin**
 
-[![Latest Stable Version](https://poser.pugx.org/tonystore/livewire-interactions/v)](https://packagist.org/packages/tonystore/livewire-interactions)  [![Total Downloads](http://poser.pugx.org/tonystore/livewire-interactions/downloads)](https://packagist.org/packages/tonystore/livewire-interactions)  [![License](http://poser.pugx.org/tonystore/livewire-interactions/license)](https://packagist.org/packages/tonystore/livewire-interactions)  [![PHP Version Require](http://poser.pugx.org/tonystore/livewire-interactions/require/php)](https://packagist.org/packages/tonystore/livewire-permission)
+[![Latest Stable Version](https://poser.pugx.org/tonystore/laravel-round-robin/v)](https://packagist.org/packages/tonystore/laravel-round-robin)  [![Total Downloads](http://poser.pugx.org/tonystore/laravel-round-robin/downloads)](https://packagist.org/packages/tonystore/laravel-round-robin)  [![License](http://poser.pugx.org/tonystore/laravel-round-robin/license)](https://packagist.org/packages/tonystore/laravel-round-robin)  [![PHP Version Require](http://poser.pugx.org/tonystore/laravel-round-robin/require/php)](https://packagist.org/packages/tonystore/livewire-permission)
 
 Laravel package to generate sweepstakes using the Round Robin algorithm. Supports any number of teams, as long as they are greater than a minimum value specified in the configuration file. Built with Laravel Collections for better handling of arrays.
 ## **REQUIREMENTS**
