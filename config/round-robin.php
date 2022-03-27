@@ -9,13 +9,13 @@ return [
     'min_teams' => 2,
     /**
      *----------------------------------------------------------------------
-     * Custom name for the first phase of the calendar.
+     * Custom name for the first phase of the schedule.
      *----------------------------------------------------------------------
      */
     'one_phase' => 'one',
     /**
      *----------------------------------------------------------------------
-     * Custom name for the return phase of the calendar.
+     * Custom name for the return phase of the schedule.
      *----------------------------------------------------------------------
      */
     'way_phase' => 'way',

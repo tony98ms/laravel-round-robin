@@ -1,6 +1,6 @@
 {
     "name": "tonystore/laravel-round-robin",
-    "description": "Laravel package to generate sweepstakes using the Round Robin algorithm. Supports any number of teams, as long as they are greater than a minimum value specified in the configuration file. Built with Laravel Collections for better handling of arrays.",
+    "description": "Laravel package to generate sweepstakes using the Round Robin algorithm.",
     "type": "package",
     "homepage": "https://github.com/tony98ms/laravel-round-robin",
     "keywords": [

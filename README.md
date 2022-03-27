@@ -1,10 +1,12 @@
 # **laravel-round-robin**
 
+[![Latest Stable Version](https://poser.pugx.org/tonystore/livewire-interactions/v)](https://packagist.org/packages/tonystore/livewire-interactions)  [![Total Downloads](http://poser.pugx.org/tonystore/livewire-interactions/downloads)](https://packagist.org/packages/tonystore/livewire-interactions)  [![License](http://poser.pugx.org/tonystore/livewire-interactions/license)](https://packagist.org/packages/tonystore/livewire-interactions)  [![PHP Version Require](http://poser.pugx.org/tonystore/livewire-interactions/require/php)](https://packagist.org/packages/tonystore/livewire-permission)
+
 Laravel package to generate sweepstakes using the Round Robin algorithm. Supports any number of teams, as long as they are greater than a minimum value specified in the configuration file. Built with Laravel Collections for better handling of arrays.
 ## **REQUIREMENTS**
 
 -   [PHP >= 7.2](http://php.net)
--   [Laravel 7 | 8](https://laravel.com)
+-   [Laravel 7 | 8 | 9 ](https://laravel.com)
 
 ## **INSTALLATION VIA COMPOSER**
 
@@ -33,13 +35,13 @@ return [
     'min_teams' => 2,
     /**
      *----------------------------------------------------------------------
-     * Custom name for the first phase of the calendar.
+     * Custom name for the first phase of the schedule.
      *----------------------------------------------------------------------
      */
     'one_phase' => 'one',
     /**
      *----------------------------------------------------------------------
-     * Custom name for the return phase of the calendar.
+     * Custom name for the return phase of the schedule.
      *----------------------------------------------------------------------
      */
     'way_phase' => 'way',
