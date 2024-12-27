@@ -1,6 +1,9 @@
 # **laravel-round-robin**
 
-[![Latest Stable Version](https://poser.pugx.org/tonystore/laravel-round-robin/v)](https://packagist.org/packages/tonystore/laravel-round-robin)  [![Total Downloads](http://poser.pugx.org/tonystore/laravel-round-robin/downloads)](https://packagist.org/packages/tonystore/laravel-round-robin)  [![License](http://poser.pugx.org/tonystore/laravel-round-robin/license)](https://packagist.org/packages/tonystore/laravel-round-robin)  [![PHP Version Require](http://poser.pugx.org/tonystore/laravel-round-robin/require/php)](https://packagist.org/packages/tonystore/livewire-permission)
+[![Latest Stable Version](https://img.shields.io/packagist/v/tonystore/laravel-round-robin?label=version)](https://packagist.org/packages/tonystore/laravel-round-robin) 
+[![Packagist Downloads](https://img.shields.io/packagist/dt/tonystore/laravel-round-robin)](https://packagist.org/packages/tonystore/laravel-round-robin)
+[![License](https://img.shields.io/packagist/l/tonystore/laravel-round-robin)](https://packagist.org/packages/tonystore/laravel-round-robin) 
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/tonystore/laravel-round-robin/php)](https://packagist.org/packages/tonystore/laravel-round-robin)
 
 Laravel package to generate sweepstakes using the Round Robin algorithm. Supports any number of teams, as long as they are greater than a minimum value specified in the configuration file. Built with Laravel Collections for better handling of arrays.
 ## **REQUIREMENTS**
